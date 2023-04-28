@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/99f4431618.js" crossorigin="anonymous"></script>
+    <title>Pokemon tarot</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="menu">
+          <div id="all" class="menu-item menu-active">All</div>
+          <div id="major" class="menu-item">Major</div>
+          <div id="wands" class="menu-item">Wands</div>
+          <div id="pentacles" class="menu-item">Pentacles</div>
+          <div id="swords" class="menu-item">Swords</div>
+          <div id="cups" class="menu-item">Cups</div>
+        </div>
+        <div class="search-bar">
+          <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <input id="search" type="text" class="search-box" placeholder="Search your card..." />
+        </div>
+      </div>
+
+      <div id="card-list" class="card-list-container"><h3 class="no-result">Loading...</h3></div>
+    </div>
+    <script type="text/javascript" src="./js/data.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+  </body>
+</html>

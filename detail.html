@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/detail.css" />
+    <script src="https://kit.fontawesome.com/99f4431618.js" crossorigin="anonymous"></script>
+    <title>Pokemon tarot</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <button id="back-btn" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back</button>
+      </div>
+      <div class="content">
+        <div class="card-img"></div>
+        <div class="card-detail">
+          <h1 id="card-name" class="name"></h1>
+          <div class="meaning">
+            <p class="label">Forward meaning:</p>
+            <p id="forward-meaning" class="detail"></p>
+          </div>
+          <div class="meaning">
+            <p class="label">Reverse meaning:</p>
+            <p id="reverse-meaning" class="detail"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./js/data.js"></script>
+    <script type="text/javascript" src="./js/detail.js"></script>
+  </body>
+</html>
