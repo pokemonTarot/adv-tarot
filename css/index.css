@@ -113,6 +113,7 @@ body {
 .card {
   width: 100%;
   height: 100%;
+  border-radius: var(--card-border-radius);
   position: relative;
   transition: transform 1500ms;
   transform-style: preserve-3d;
